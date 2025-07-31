@@ -17,26 +17,34 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 210 90% 48%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 210 90% 45%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 160 60% 45%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-hover: 160 60% 42%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 210 40% 98%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 160 100% 97%;
+    --accent-foreground: 160 60% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 210 90% 48%;
 
-    --radius: 0.5rem;
+    --success: 160 60% 45%;
+    --success-foreground: 0 0% 100%;
+    
+    --campus-gradient: linear-gradient(135deg, hsl(210 90% 48%), hsl(160 60% 45%));
+    --hero-gradient: linear-gradient(135deg, hsl(210 90% 48% / 0.1), hsl(160 60% 45% / 0.1));
+    
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
